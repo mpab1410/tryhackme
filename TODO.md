@@ -1,6 +1,12 @@
-# Rooms to look at
+# Todo List
 
-- Wireshark 101
+## Rooms to look at
+
 - Metasploit
-- CompTIA Pentest+ (PenTesting Tools part only)
 - Redo NetSys2 without Metasploit
+- Wireshark 101
+- CompTIA Pentest+ (PenTesting Tools part only)
+  
+## Other tasks
+
+- Cleanup notes
