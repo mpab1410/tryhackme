@@ -2,10 +2,10 @@
 
 ## Rooms to look at
 
-- Metasploit
 - Redo NetSys2 without Metasploit
 - Wireshark 101
 - CompTIA Pentest+ (PenTesting Tools part only)
+- XSS
   
 ## Other tasks
 

@@ -1,0 +1,21 @@
+# Nmap 7.91 scan initiated Wed Jul 21 17:59:23 2021 as: nmap -sC -sV -oN nmap_known_vulns.log 10.10.188.166
+Nmap scan report for 10.10.188.166
+Host is up (0.10s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 e0:c2:1d:6a:e4:cb:9f:68:75:b3:dd:4a:46:79:bb:22 (RSA)
+|   256 ad:c7:3b:12:f0:e1:de:ea:44:58:60:f8:f2:eb:86:f8 (ECDSA)
+|_  256 32:a4:7a:64:58:0f:c0:01:c2:92:28:50:97:94:44:14 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Index
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 21 17:59:51 2021 -- 1 IP address (1 host up) scanned in 27.51 seconds
