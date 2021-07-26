@@ -1,0 +1,5 @@
+/login.php            (Status: 200) [Size: 882]
+/assets               (Status: 301) [Size: 315] [--> http://10.10.240.104/assets/]
+/portal.php           (Status: 302) [Size: 0] [--> /login.php]
+/denied.php           (Status: 302) [Size: 0] [--> /login.php]
+/server-status        (Status: 403) [Size: 301]
